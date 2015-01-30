@@ -57,7 +57,7 @@ ExigoClient.prototype = {
 			if(result['Fault'])
 				return continuation(new ExigoError(result));
 
-			return continuation(null, result);
+			return continuation(null, result[method + 'Response'] || result);
 		});
 	}
 };
