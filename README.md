@@ -40,9 +40,9 @@ Note: if you encounter some error like ```Error: Could not locate the bindings f
 A workaround to this issue is:
 
 * in the node_modules directory, navigate to the ```libxmljs``` module
-* edit the file binding.gyp and delete the lines where the ```product_extension``` and ```type``` options are
+* edit the file ```binding.gyp``` and delete the lines where the ```product_extension``` and ```type``` options are
 * rebuild the module with ```node-gyp rebuild```
 
 ----
 ## thanks
-* [foam](https://lodash.com)
+* [foam](https://github.com/AirAsiaExpedia/node-foam)
