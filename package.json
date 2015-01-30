@@ -1,6 +1,6 @@
 {
 	"name": "exigo",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Simple Exigo API client for Node.js",
 	"main": "exigo.js",
 	"scripts": {
